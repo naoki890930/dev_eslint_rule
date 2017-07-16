@@ -16,6 +16,5 @@ const invalid = [{
   errors: [{ message: "You must make a new line when use if statement.", type: "IfStatement" }]
 }];
 
-// 単体テスト実行
 ruleTester.run("if-newline", rule, { valid, invalid });
 
